@@ -40,17 +40,20 @@
 
 .link {
   color: var(--primary-text-color);
+   text-decoration: none;
 }
 
 .list {
   list-style: none;
 }
 
-.navigation {
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14;
-}
+.navigation, .site-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+ }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -61,24 +64,25 @@ line-height: 1,14;
   color: var(--accent-color);
 }
 
-.site-contact {
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14;}
-
 .site-contact .link:hover,
 .site-contact .link:focus {
   color: var(--accent-color);
 }
+ .site-contact .link{  color: var(--secondary-text-color);}
+
 
 .title-section {
   background-color: var(--primary-dark-color);
+  
 }
 .title-name {
+  font-family: Roboto;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1,36;
   text-align: center;
+  
   color: var(--primary-white-color);
 }
 
@@ -102,6 +106,12 @@ line-height: 1,14;}
   background-color: var(--primary-white-color);
 }
 
+.button:hover,
+.button:focus {
+  color: var(--primary-text-color);  
+  background-color: var(--accent-color);
+}
+
 
 .content {
     color: var(--primary-text-color);
@@ -114,6 +124,8 @@ line-height: 1,18;
 
 .occupation-item {
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 1, 16;
@@ -122,21 +134,22 @@ line-height: 1,18;
 
 .footer-content {
   background-color: var(--primary-dark-color);
+  font-family: Roboto;
 }
 
 .footer-item {
-  color: var(--third-white-color);
+ color: var(--third-white-color);
  text-decoration: none;
- font-family: Roboto;
+ font-family: inherit;
  font-style: normal ;
-font-size: 14px;
-line-height: 1.71;
+ font-size: 14px;
+ line-height: 1.71;
 }
 
 .footer-item-text {
   color: var(--primary-white-color);
   text-decoration: none;
- font-family: Roboto;
+ font-family: inherit;
  font-style: normal ;
 font-size: 14px;
 line-height: 1.71;
