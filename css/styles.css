@@ -10,6 +10,7 @@
     255,
     0.6
   ); /* цвет текста с прозрачностью */
+  --primary-hover-button:#188CE8; /* ховер кнопки */
 }
 
 .body {
@@ -94,6 +95,7 @@
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  border-radius: 4px;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -114,7 +116,7 @@
 .button:hover,
 .button:focus {
   color: var(--primary-text-color);  
-  background-color: var(--accent-color);
+  background-color: var(--primary-hover-button);
 }
 
 
