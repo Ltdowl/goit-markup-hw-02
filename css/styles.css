@@ -64,11 +64,16 @@
   color: var(--accent-color);
 }
 
-.site-contact .link:hover,
-.site-contact .link:focus {
+.site-contact .link{
+   color: var(--secondary-text-color);
+  }
+
+.site-contact, .link:hover,
+.site-contact, .link:focus {
   color: var(--accent-color);
 }
- .site-contact .link{  color: var(--secondary-text-color);}
+
+ 
 
 
 .title-section {
@@ -145,12 +150,23 @@ line-height: 1,18;
  font-size: 14px;
  line-height: 1.71;
 }
+.footer-item:hover,
+.footer-item:focus {
+  color: var(--accent-color);
+}
+
 
 .footer-item-text {
   color: var(--primary-white-color);
   text-decoration: none;
- font-family: inherit;
- font-style: normal ;
-font-size: 14px;
-line-height: 1.71;
+  font-family: inherit;
+  font-style: normal ;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+
+.footer-item-text:hover,
+.footer-item-text:focus {
+  color: var(--accent-color);
 }
