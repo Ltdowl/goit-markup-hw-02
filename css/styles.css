@@ -125,8 +125,6 @@ address {
 .occupation-item {
   color: var(--primary-text-color);
   font-family: inherit;
-  font-style: normal;
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
